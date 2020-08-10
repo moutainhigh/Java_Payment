@@ -1,0 +1,14 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /Payment
+  tomcat:
+    uri-encoding: UTF-8
+
+  # 解决中文乱码的问题
+spring:
+  http:
+    encoding:
+      force: true
+      charset: UTF-8
+      enabled: true
